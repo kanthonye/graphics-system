@@ -5,8 +5,8 @@
 //  Created by Kenneth Esdaile on 4/14/24.
 //
 
-#include "graphics/initializer/graphics.hpp"
-#include "graphics/components/geometries/cuboid.hpp"
+#include "../graphics/initializer/graphics.hpp"
+#include "../graphics/components/geometries/cuboid.hpp"
 
 struct ShaderCameraParams
 {
