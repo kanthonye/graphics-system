@@ -1,0 +1,36 @@
+{
+    "shader-program":
+    {
+        "pipeline": "graphics",
+        "name": "basic-shader",
+
+        "shader-stages":
+        [
+            {
+                "stage": "vertex",
+                "file":  "basic.vert"
+            },
+            {
+                "stage": "fragment",
+                "file":  "basic.frag"
+            },
+        ],
+
+        "rasterization":
+        {
+            "primative-topology": "triangle-list",
+            "polygon-mode": "line",
+            "cull-mode": "cull_none"
+        },
+
+        "input-bindings":
+        [
+            {
+                "binding":      0,
+                "stride":       "sizeof(vec3, vec3, vec2)",
+                "input-rate":   "input-per-vertex"
+            },
+        ],
+    }
+}
+
